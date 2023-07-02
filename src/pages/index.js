@@ -1,0 +1,10 @@
+export { default as Home } from './home/Home';
+export { default as School } from './school/School';
+export { default as Search } from './search/Search';
+export { default as AddSchoolRating } from './addschoolrating/AddSchoolRating';
+export { default as AddEntity } from './addEntity/AddEntity';
+export { default as Teacher } from './teacher/Teacher';
+export { default as AddTeacherRating } from './addteacherrating/AddTeacherRating';
+export { default as SearchTeacher } from './searchteacher/SearchTeacher';
+export { default as Registration } from './registration/Registration';
+export { default as Account } from './account/Account';

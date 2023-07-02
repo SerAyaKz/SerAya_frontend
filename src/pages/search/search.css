@@ -1,0 +1,78 @@
+/* Styles for the No Results Found Area */
+
+/* Overall styles */
+
+.space{
+    display: block;
+      margin: 27px auto;
+      max-width: 1280px;
+      text-align: left;
+      width: 100%;
+      z-index: 210000;
+  }
+  .no-results {
+    min-height: 100vh;
+    text-align: left;
+    width: 100%;
+    background: white;
+      color: black;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  /* Header styles */
+  .no-results h2 {
+    font-size: 26px;
+      margin-bottom: 32px;
+  }
+  
+  /* Subheader styles */
+  .no-results h3  {
+    font-size: 16px;
+    margin-bottom: 41px;
+    margin-left: 55px;
+  }
+  
+  /* Add CTA wrapper styles */
+  .add-cta-wrapper {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(247, 247, 247);
+    display: flex;
+    font-size: 16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 29px 37px 29px 21px;
+    flex-direction: column;
+  }
+  
+  /* Prompt styles */
+  .add-cta-wrapper p{
+    font-size: 16px;
+  }
+  
+  /* Add link styles */
+  .add-cta-wrapper button {
+    background: black;
+      border: 1px solid rgb(0, 33, 255);
+      border-radius: 100px;
+      color: white;
+      display: flex;
+      font-stretch: normal;
+      font-weight: 700;
+      -webkit-box-pack: center;
+      justify-content: center;
+      letter-spacing: normal;
+      outline: none;
+      transition: transform 0.2s ease 0s;
+      height: 36px;
+      line-height: 20px;
+      margin-top: 15px;
+      padding: 8px 24px;
+      text-decoration: none;
+      width: fit-content;
+  }
+  .add-link:hover {
+    text-decoration: underline;
+  }
+  

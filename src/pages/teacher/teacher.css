@@ -1,0 +1,9 @@
+.TeacherRatingsPage {
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding-left: 22px;
+    background: white;
+}

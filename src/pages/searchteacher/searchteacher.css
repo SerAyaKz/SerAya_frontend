@@ -1,0 +1,53 @@
+.start {
+    background-color: white;
+    padding-left: 39px;
+  
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .start h1 {
+    max-width: 860px;
+  }
+  
+  #departmentSelect {
+    display: flex;
+    margin-bottom: 24px;
+    max-width: 680px;
+    width: 100%;
+    margin-top: 24px;
+    height: 100%;
+  }
+  
+  #departmentSelect label {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-right: 12px;
+    white-space: nowrap;
+  }
+  
+  .start ul {
+    list-style: none;
+  }
+  
+  .AddProf {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .AddProf h2 {
+    font-size: 16px;
+  }
+  
+  .AddProf a {
+    font-size: 16px;
+    margin-top: 10px;
+  }

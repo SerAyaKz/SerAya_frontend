@@ -1,0 +1,37 @@
+.myratings {
+    margin: 20px;
+    padding: 39px;
+  
+  }
+  
+  .myratings table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .myratings th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .myratings th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .myratings td button {
+    padding: 6px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .myratings td button:hover {
+    background-color: #45a049;
+  }
+  

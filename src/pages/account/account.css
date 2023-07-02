@@ -1,0 +1,36 @@
+.addAccount {
+    background: white;
+    padding: 39px;
+  
+  }
+  
+  .addAccount {
+    box-shadow: rgba(126, 126, 126, 0.25) 0px 4px 4px;
+    height: auto;
+    padding: 24px;
+    top: 64px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .addAccount span {
+    font-size: 36px;
+    hyphens: auto;
+    line-height: 38px;
+    overflow-wrap: break-word;
+    text-align: left;
+    word-break: break-word;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    padding: 0px 39px;
+  
+  }
+  
+  .addAccount a {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+  }

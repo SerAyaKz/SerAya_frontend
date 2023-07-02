@@ -1,0 +1,13 @@
+.school-ratings-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    list-style-type:none;
+  }
+  .school-ratings-list li{
+    width: 80%;
+  }

@@ -1,0 +1,31 @@
+.addEntity {
+    background: white;
+  }
+  
+  .container {
+    box-shadow: rgba(126, 126, 126, 0.25) 0px 4px 4px;
+    height: auto;
+    padding: 24px;
+    top: 64px;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addEntity span {
+    font-size: 36px;
+    hyphens: auto;
+    line-height: 38px;
+    overflow-wrap: break-word;
+    text-align: left;
+    word-break: break-word;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+  }
+  
+  .addEntity a {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+  }

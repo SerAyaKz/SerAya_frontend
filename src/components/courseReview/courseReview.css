@@ -1,0 +1,210 @@
+/* Styles for Rating */
+.Rating {
+    margin: 16px 0px;
+    padding: 0px 22px;
+  }
+  
+  /* Styles for RatingBody */
+  .RatingBody {
+    display: flex;
+    padding: 21px 24px 0px;
+    background-color: rgba(241, 241, 241, 0.4);
+  
+  }
+  
+  /* Styles for RatingHeader */
+  .RatingHeader {
+    -webkit-box-align: center;
+      align-items: center;
+      display: none;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      margin: 5px 0px 10px;
+      min-height: 31px;
+  }
+  
+  /* Styles for ClassInfoWrapper */
+  .ClassInfoWrapper {
+    display: flex;
+  }
+  
+  /* Styles for StyledClass */
+  .StyledClass {
+    -webkit-box-align: center;
+      align-items: center;
+      align-self: center;
+      display: flex;
+      font-size: 16px;
+      padding-right: 22px;
+      text-transform: uppercase;
+      font-family: Poppins, sans-serif;
+      font-weight: 900;
+  }
+  
+  .StyledEmotionLabelred {
+    -webkit-box-align: center;
+      align-items: center;
+      background: rgb(255, 156, 156);
+      display: inline-flex;
+      line-height: 1.54;
+      padding: 5px 20px;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Poppins, sans-serif;
+      font-weight: 700;
+  }
+  .StyledEmotionLabelgreen {
+    -webkit-box-align: center;
+      align-items: center;
+      background: rgb(156, 255, 156);
+      display: inline-flex;
+      line-height: 1.54;
+      padding: 5px 20px;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Poppins, sans-serif;
+      font-weight: 700;
+  }
+  .StyledEmotionLabelyellow {
+    -webkit-box-align: center;
+      align-items: center;
+      background: rgb(255, 255, 156);
+      display: inline-flex;
+      line-height: 1.54;
+      padding: 5px 20px;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Poppins, sans-serif;
+      font-weight: 700;
+  }
+  /* Styles for StyledTimeStamp */
+  .StyledTimeStamp {
+    font-size: 14px;
+    padding-bottom: 0px;
+  }
+  
+  /* Styles for RatingValues */
+  .RatingValues {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for RatingContainer */
+  .RatingContainer {
+    margin-bottom: 24px;
+  }
+  
+  /* Styles for StyledCardNumRating */
+  .StyledCardNumRating {
+    display: flex;
+      flex-direction: column;
+  }
+  
+  /* Styles for CardNumRatingHeader */
+  .CardNumRatingHeader {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .CardNumRatingNumberred {
+    align-self: center;
+      background: rgb(255, 156, 156);
+      height: 64px;
+      line-height: 36px;
+      margin-bottom: 8px;
+      padding: 14px 10px;
+      width: 72px;
+      font-size: 32px;
+      font-family: Poppins, sans-serif;
+      font-weight: 900;
+  }
+  .CardNumRatingNumbergreen {
+    align-self: center;
+      background: rgb(156, 255, 156);
+      height: 64px;
+      line-height: 36px;
+      margin-bottom: 8px;
+      padding: 14px 10px;
+      width: 72px;
+      font-size: 32px;
+      font-family: Poppins, sans-serif;
+      font-weight: 900;
+  }
+  .CardNumRatingNumberyellow {
+    align-self: center;
+      background: rgb(255, 255, 156);
+      height: 64px;
+      line-height: 36px;
+      margin-bottom: 8px;
+      padding: 14px 10px;
+      width: 72px;
+      font-size: 32px;
+      font-family: Poppins, sans-serif;
+      font-weight: 900;
+  }
+  
+  /* Styles for RatingInfo */
+  .RatingInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    text-align: left;
+    width: 100%;
+  }
+  
+  /* Styles for StyledHeader */
+  .StyledHeader {
+    -webkit-box-align: center;
+      align-items: center;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      margin: 5px 0px 10px;
+      min-height: 31px;
+  }
+  
+  /* Styles for StyledCourseMeta */
+  .StyledCourseMeta {
+    display: flex;
+      flex-flow: wrap;
+      margin-bottom: 14px;
+  }
+  
+  /* Styles for StyledMetaItem */
+  .StyledMetaItem {
+    font-size: 16px;
+    line-height: 1.54;
+    margin-right: 16px;
+    padding: 4px 0px;
+    white-space: nowrap;
+  }
+  
+  /* Styles for StyledComments */
+  .StyledComments {
+    flex: 1 1 0%;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+  }
+  
+  /* Styles for StyledRatingFooter */
+  .StyledRatingFooter {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 24px 0px 32px;
+  }
+  
+  /* Styles for Thumbs__ButtonWrapper */
+  .Thumbs__ButtonWrapper {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  
+  

@@ -1,0 +1,46 @@
+.TeacherRatingTabs {
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .TeacherRatingTabs__TabList {
+    border-bottom: 2px solid rgb(241, 241, 241);
+    display: flex;
+    margin: 28px 22px 0px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .TeacherRatingTabs__Tab--selected {
+    border-bottom: 2px solid rgb(21, 21, 21);
+    color: rgb(21, 21, 21);
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1.8;
+    min-width: 150px;
+    padding-bottom: 8px;
+  }
+  
+  .RatingsFilterList {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  select {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  option {
+    font-size: 16px;
+  }
+  

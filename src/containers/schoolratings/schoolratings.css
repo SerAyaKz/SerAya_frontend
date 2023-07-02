@@ -1,0 +1,94 @@
+.school-ratings-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 5rem;
+    padding: 4rem 6rem;
+    width: 100%;
+    background: white;
+    box-shadow: rgba(126, 126, 126, 0.25) 0px 4px 4px;   
+  }
+  
+  .overall-rating-container {
+    padding-left: 24px;
+    margin-right: auto;
+  }
+  
+  .overall-rating {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  
+  .rating-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating-number {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 2px;
+    font-family: var(--font-family);
+    font-weight: 900;
+  }
+  
+  .helper-text {
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+  }
+  
+  .school-summary-wrapper {
+    margin-bottom: 24px;
+    padding-right: 24px;
+  }
+  
+  .school-summary-container {
+    column-gap: 110px;
+    display: flex;
+    flex-flow: column wrap;
+    height: 264px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 628px;
+  }
+  
+  .category-grade {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 20%;
+    height: 34px;
+  }
+  
+  .category-icon {
+    height: 34px;
+    width: 34px;
+  }
+  
+  .category-title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 16px;
+    text-align: left;
+    width: 165px;
+  }
+  
+  .colored-square {
+    background: rgb(255, 241, 112);
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    min-height: 40px;
+    min-width: 44px;
+    padding: 8px 0px;
+    width: 44px;
+    text-align: center;
+  }
+  

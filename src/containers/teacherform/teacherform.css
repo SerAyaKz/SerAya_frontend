@@ -1,0 +1,238 @@
+.Addschool {
+    background: white;
+  
+  }
+  
+  .Addschool label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .formcard {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    box-shadow: rgba(126, 126, 126, 0.25) 0px 4px 4px;
+    padding: 24px 28px 20px;
+    text-align: left;
+    margin: 0px 0px 20px;
+  }
+  
+  /* use reverse flexbox to take advantage of flex-direction: reverse */
+  .star-rating {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 40px auto;
+    position: relative;
+  }
+  
+  /* hide the inputs */
+  .star-rating input {
+    display: none;
+  }
+  
+  /* set properties of all labels */
+  .star-rating>label {
+    width: 30px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: #703dde;
+  }
+  
+  /* give label a hover state */
+  .star-rating label:hover {
+    color: #000000;
+    transition: 0.2s ease;
+  }
+  
+  .star-rating label:active::before {
+    transform: scale(1.1);
+  }
+  
+  /* set shape of unselected label */
+  .star-rating label::before {
+    content: '\2606';
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+  }
+  
+  /* set full star shape for checked label and those that come after it */
+  .star-rating input:checked~label:before {
+    content: '\2605';
+  }
+  
+  @-moz-document url-prefix() {
+    .star-rating input:checked~label:before {
+      font-size: 36px;
+      line-height: 21px;
+    }
+  }
+  
+  body {
+    background: #F0F0F0;
+  }
+  
+  
+  h2 {
+    margin-left: 55px;
+  }
+  
+  textarea {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 500px;
+    height: 100px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    color: #555555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    transition: background-color 0.2s ease 0s;
+  }
+  
+  
+  textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+  }
+  
+  .btn-3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0077ff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    display: block;
+    /* Make the button a block-level element */
+    margin: 0 auto;
+  }
+  
+  .btn-3:hover {
+    background-color: #0055cc;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  
+  #gradeReceived {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 40px auto;
+    position: relative;
+  }
+  
+  #gradeReceived select {
+    height: 150px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .radio-buttons input {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 2px solid rgb(158, 158, 158);
+    border-radius: 50%;
+    display: flex;
+    height: 44px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px 0px 8px;
+    width: 44px;
+  }
+  
+  .radio-buttons label {
+    color: rgb(126, 126, 126);
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 50px;
+  }
+  
+  .dropdown {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 40px auto;
+    position: relative;
+  }
+  
+  .dropdown input {
+   
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+   width: 300px;
+    padding: 0 1rem;
+    outline: none;
+    color: #000000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .options-container {
+    position: absolute; /* Position the options absolutely */
+    top: 100%; /* Position the options below the input */
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    border: 2px solid var(--color-footer);
+    color: #000;
+    width: 300px;
+  
+  }
+  
+  .options {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    padding: 0 1rem;
+  
+  }
+  
+  .options:hover {
+    background: var(--color-footer);
+    color: #fff;
+  }
+  
